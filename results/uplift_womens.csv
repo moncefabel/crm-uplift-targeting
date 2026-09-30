@@ -1,0 +1,7 @@
+approach,base_learner,seconds,energy_wh,co2_g,qini_auc,qini_auc_std,uplift_auc,uplift_auc_std,uplift_at_k,uplift_at_k_std,capture_at_k,capture_at_k_std
+S-learner,logistic,0.3926,0.0015,0.0001,0.0136,0.0101,0.0063,0.0045,0.0528,0.0062,0.3511,0.0413
+T-learner,logistic,0.3574,0.0014,0.0001,0.0625,0.009,0.029,0.0041,0.0666,0.0052,0.4431,0.0349
+Class transformation,logistic,0.3183,0.0012,0.0001,0.064,0.0087,0.0294,0.0035,0.0719,0.0068,0.4778,0.0451
+S-learner,gradient_boosting,2.5487,0.0099,0.0006,0.0623,0.0123,0.0285,0.0058,0.0739,0.007,0.4909,0.0464
+T-learner,gradient_boosting,2.8663,0.0111,0.0006,0.0503,0.0161,0.0231,0.0071,0.0694,0.009,0.4614,0.0599
+Class transformation,gradient_boosting,1.0422,0.0041,0.0002,0.0596,0.0157,0.0273,0.0072,0.0761,0.0076,0.497,0.0516

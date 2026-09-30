@@ -1,0 +1,196 @@
+{
+  "Mens E-Mail": {
+    "models": [
+      {
+        "approach": "S-learner",
+        "base_learner": "logistic",
+        "seconds": 0.3886984570000038,
+        "energy_wh": 0.0016587064633333613,
+        "co2_g": 9.295225149873823e-05,
+        "qini_auc": 0.024715550258480275,
+        "qini_auc_std": 0.006646990189573394,
+        "uplift_auc": 0.012453098542754148,
+        "uplift_auc_std": 0.003551257230676715,
+        "uplift_at_k": 0.09390777906269532,
+        "uplift_at_k_std": 0.0007625613016677571,
+        "capture_at_k": 0.36823755900351385,
+        "capture_at_k_std": 0.002990207149177767
+      },
+      {
+        "approach": "T-learner",
+        "base_learner": "logistic",
+        "seconds": 0.41486818699999617,
+        "energy_wh": 0.0016154338738889054,
+        "co2_g": 9.052729885886038e-05,
+        "qini_auc": 0.009934040028182803,
+        "qini_auc_std": 0.010791763048743845,
+        "uplift_auc": 0.005145587986041351,
+        "uplift_auc_std": 0.006026074177052623,
+        "uplift_at_k": 0.08571554662447131,
+        "uplift_at_k_std": 0.010305475494894375,
+        "capture_at_k": 0.33611362096610176,
+        "capture_at_k_std": 0.04041053018703468
+      },
+      {
+        "approach": "Class transformation",
+        "base_learner": "logistic",
+        "seconds": 0.45725233800001774,
+        "energy_wh": 0.0017795256594444466,
+        "co2_g": 9.972283842960736e-05,
+        "qini_auc": 0.01536337245326384,
+        "qini_auc_std": 0.008095891847046087,
+        "uplift_auc": 0.0076365316758131045,
+        "uplift_auc_std": 0.004298997164833355,
+        "uplift_at_k": 0.08607682670576791,
+        "uplift_at_k_std": 0.0028474539109282523,
+        "capture_at_k": 0.33753029694950915,
+        "capture_at_k_std": 0.011165629599601061
+      },
+      {
+        "approach": "S-learner",
+        "base_learner": "gradient_boosting",
+        "seconds": 2.608957680000003,
+        "energy_wh": 0.01014761514555548,
+        "co2_g": 0.0005686622051417836,
+        "qini_auc": 0.010769859624634814,
+        "qini_auc_std": 0.007923135514213791,
+        "uplift_auc": 0.005896139378673119,
+        "uplift_auc_std": 0.004075773419209595,
+        "uplift_at_k": 0.09011981518843837,
+        "uplift_at_k_std": 0.008655968770798411,
+        "capture_at_k": 0.3546181836365179,
+        "capture_at_k_std": 0.034314069178372444
+      },
+      {
+        "approach": "T-learner",
+        "base_learner": "gradient_boosting",
+        "seconds": 2.7987966510000035,
+        "energy_wh": 0.010885404377222173,
+        "co2_g": 0.0006100071758951533,
+        "qini_auc": 0.004068897423310541,
+        "qini_auc_std": 0.011816554433683539,
+        "uplift_auc": 0.002433553991504603,
+        "uplift_auc_std": 0.006139613816617312,
+        "uplift_at_k": 0.08292674381930247,
+        "uplift_at_k_std": 0.009088100313841949,
+        "capture_at_k": 0.3251779780644427,
+        "capture_at_k_std": 0.03563687597503464
+      },
+      {
+        "approach": "Class transformation",
+        "base_learner": "gradient_boosting",
+        "seconds": 0.7094516020000015,
+        "energy_wh": 0.0027599398671111024,
+        "co2_g": 0.00015466427021303906,
+        "qini_auc": 0.005960196241208885,
+        "qini_auc_std": 0.015830802245620217,
+        "uplift_auc": 0.0028965724217076606,
+        "uplift_auc_std": 0.008191867615231356,
+        "uplift_at_k": 0.08171118263890595,
+        "uplift_at_k_std": 0.011438894125230366,
+        "capture_at_k": 0.3263598540123009,
+        "capture_at_k_std": 0.03247759586900769
+      }
+    ],
+    "random": {
+      "uplift_at_k": 0.0736536835904785
+    }
+  },
+  "Womens E-Mail": {
+    "models": [
+      {
+        "approach": "S-learner",
+        "base_learner": "logistic",
+        "seconds": 0.3926240400000154,
+        "energy_wh": 0.001528029922513429,
+        "co2_g": 8.562926882773006e-05,
+        "qini_auc": 0.013563939308075512,
+        "qini_auc_std": 0.010080723028578183,
+        "uplift_auc": 0.006312306420970111,
+        "uplift_auc_std": 0.004487658874529598,
+        "uplift_at_k": 0.052801142396369995,
+        "uplift_at_k_std": 0.006207886048903344,
+        "capture_at_k": 0.351082608868065,
+        "capture_at_k_std": 0.04127715293058673
+      },
+      {
+        "approach": "T-learner",
+        "base_learner": "logistic",
+        "seconds": 0.35738509300000487,
+        "energy_wh": 0.0013910840766666233,
+        "co2_g": 7.795496057232092e-05,
+        "qini_auc": 0.06254728816865528,
+        "qini_auc_std": 0.008990851694783827,
+        "uplift_auc": 0.028978409342331802,
+        "uplift_auc_std": 0.004089304414698461,
+        "uplift_at_k": 0.06656372577807855,
+        "uplift_at_k_std": 0.005216605142882582,
+        "capture_at_k": 0.443059827666122,
+        "capture_at_k_std": 0.034941691104169566
+      },
+      {
+        "approach": "Class transformation",
+        "base_learner": "logistic",
+        "seconds": 0.3183015950000083,
+        "energy_wh": 0.0012390149822221177,
+        "co2_g": 6.943316058874526e-05,
+        "qini_auc": 0.06396714585676463,
+        "qini_auc_std": 0.008668758538230535,
+        "uplift_auc": 0.029397401337498602,
+        "uplift_auc_std": 0.0035338926372633765,
+        "uplift_at_k": 0.07186395864728516,
+        "uplift_at_k_std": 0.006776143834132536,
+        "capture_at_k": 0.4778340948776546,
+        "capture_at_k_std": 0.04505558303064395
+      },
+      {
+        "approach": "S-learner",
+        "base_learner": "gradient_boosting",
+        "seconds": 2.5486704069999746,
+        "energy_wh": 0.009912772602777757,
+        "co2_g": 0.0005555018638870628,
+        "qini_auc": 0.06233454445486902,
+        "qini_auc_std": 0.012342843183402487,
+        "uplift_auc": 0.028520857868195783,
+        "uplift_auc_std": 0.005833819289979511,
+        "uplift_at_k": 0.073861115230887,
+        "uplift_at_k_std": 0.006991516893866275,
+        "capture_at_k": 0.49092171743100355,
+        "capture_at_k_std": 0.046378763858197405
+      },
+      {
+        "approach": "T-learner",
+        "base_learner": "gradient_boosting",
+        "seconds": 2.866297752999998,
+        "energy_wh": 0.011147935135666637,
+        "co2_g": 0.0006247191370676228,
+        "qini_auc": 0.050278977047585736,
+        "qini_auc_std": 0.01606101505410198,
+        "uplift_auc": 0.023137048613188407,
+        "uplift_auc_std": 0.007092247841733593,
+        "uplift_at_k": 0.06938958958307762,
+        "uplift_at_k_std": 0.0090098988077384,
+        "capture_at_k": 0.46137632673165785,
+        "capture_at_k_std": 0.059932236398244056
+      },
+      {
+        "approach": "Class transformation",
+        "base_learner": "gradient_boosting",
+        "seconds": 1.0422266829999955,
+        "energy_wh": 0.0040543924926666015,
+        "co2_g": 0.00022720410089654367,
+        "qini_auc": 0.05958029516532095,
+        "qini_auc_std": 0.01568772142526437,
+        "uplift_auc": 0.027289163442058784,
+        "uplift_auc_std": 0.007186855415886698,
+        "uplift_at_k": 0.07614090156935757,
+        "uplift_at_k_std": 0.007590916990304853,
+        "capture_at_k": 0.4970374136759693,
+        "capture_at_k_std": 0.051596036370998404
+      }
+    ],
+    "random": {
+      "uplift_at_k": 0.04175236798763502
+    }
+  }
+}
